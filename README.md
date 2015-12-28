@@ -21,3 +21,7 @@ dtw.DistanceFunction = func(x float64, y float64) float64 {
 dtw.ComputeOptimalPathWithWindow(a, b, 5) // 5 = window size
 path := dtw.RetrieveOptimalPath()
 ```
+
+# TODO
+
+Fast / sparse DTW would be nice...PRs welcome
